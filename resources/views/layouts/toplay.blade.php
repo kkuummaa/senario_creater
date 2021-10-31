@@ -38,7 +38,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item px-4">
                             @guest
-                            <a class="nav-link">ゲスト</a>
+                            <p class="nav-item">ゲスト</p>
                             @else
                             <a class="nav-link" href="#">{{ Auth::user()->profile->name }}</a>
                             @endguest
